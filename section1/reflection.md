@@ -1,8 +1,15 @@
 ## Section 1 Reflection
 
-1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
+1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it? 
+
+I feel like I take breaks *early* and *often* and take care of my brain. What I want to do more of is read more; I want to be more detailed oriented when followung instructions while I am learning how to code. If i take the time to do this, I feel like I will learn better and absorb the information more effectively.
+
 
 1. How would you print the string `"Hello World!"` to the terminal?
+
+````
+puts "Hello World!"
+````
 
 1. What character is used to indicate comments in a ruby file?
 
