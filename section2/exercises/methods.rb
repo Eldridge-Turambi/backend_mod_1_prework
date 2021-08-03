@@ -12,20 +12,34 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts name # YOUR CODE HERE
 end
 
 print_name("Albus Dumbledore")
+print_name("Eldrige Turambi")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
+def cool_addition(a, b)
+  puts a + b
+end
+
+cool_addition(400, 20)
+cool_addition(20, 4)
+cool_addition(60, 9)
 # YOUR CODE HERE
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+def dream_cars(car1, car2)
+  puts "One of these days when I get a tech job I want to drive a #{car1} and a #{car2}"
+end
 
+dream_cars("Tesla", "Mustang")
+dream_cars("Toyota", "Subaru WRX")
+dream_cars("Truck", "Porshe")
 
 #-------------------
 # PART 3: Naming is Hard
@@ -39,3 +53,6 @@ print_name("Albus Dumbledore")
 
 # EXPLAIN:
 
+puts "I named my function dream_cars becase in the concatenation, I wrote about my dream cars
+I want to one day hopefully own after I obtain a carreer job. I named my parameters car1 and car2
+because it describes the type of data I wanted to fill in the function nicely"
